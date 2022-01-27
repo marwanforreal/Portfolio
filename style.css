@@ -43,3 +43,34 @@ header{
     color:#d6bf89;
 }
 
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: midnightblue;
+    /*
+    background: url(image/background) no-repeat; 
+    */
+    background-size:cover; 
+    background-position:center;
+}
+
+.main h2{
+    color:#d6bf89; 
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 3em;
+    color: mintcream;
+    font-weight: 600;
+}
+
