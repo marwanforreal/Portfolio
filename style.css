@@ -94,7 +94,6 @@ section{
     letter-spacing: 1px;
     border-radius: 15px;
     margin-bottom: 40px;
-    transition: 0.7s ease;
 }
 
 .main-btn:hover{
@@ -110,5 +109,10 @@ section{
     color: mintcream;
     font-size: 1.7em;
     margin-right: 15px;
+    transition: 0.7 ease;
+}
+
+.social-icons a:hover{
+    color: #d6bf89;
 }
 
