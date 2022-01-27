@@ -94,6 +94,7 @@ section{
     letter-spacing: 1px;
     border-radius: 15px;
     margin-bottom: 40px;
+    transition: 0.7s ease;
 }
 
 .main-btn:hover{
@@ -115,4 +116,53 @@ section{
 .social-icons a:hover{
     color: #d6bf89;
 }
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: midnightblue;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: floralwhite;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color:midnightblue;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+    color: midnightblue;
+}
+
+.info h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+
 
