@@ -53,9 +53,7 @@ section{
     display: flex;
     align-items: center;
     background-color: midnightblue;
-    /*
-    background: url(image/background) no-repeat; 
-    */
+    background: url(images/main-background.png) no-repeat; 
     background-size:cover; 
     background-position:center;
 }
