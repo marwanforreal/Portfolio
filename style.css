@@ -102,6 +102,10 @@ section{
     transform: scale(1.1);
 }
 
+.cards{
+   background-color: floralwhite; 
+}
+
 .social-icons{
     margin-left: 42px;
 }
@@ -134,7 +138,7 @@ section{
 }
 
 .card{
-    background-color: floralwhite;
+    background-color:white;
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
     border-radius: 10px;
@@ -164,5 +168,38 @@ section{
     margin: 10px;
 }
 
+.projects{
+    background-color: midnightblue;
+}
+
+.projects .title{
+    color:floralwhite;
+}
+
+.image{
+    background-color: rgb(197, 166, 166);
+    height:185px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.project-card{
+    background-color: floralwhite;
+    border: 1px solid floralwhite;
+    min-height: 14em;
+    border-radius: 10px;
+    width: 23em;
+    overflow: hidden;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-image img{
+    width: 100%;
+}
 
 
