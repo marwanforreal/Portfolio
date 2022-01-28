@@ -176,13 +176,6 @@ section{
     color:floralwhite;
 }
 
-.image{
-    background-color: rgb(197, 166, 166);
-    height:185px;
-    width: 320px;
-    border-radius: 10px;
-}
-
 .project-card{
     background-color: floralwhite;
     border: 1px solid floralwhite;
@@ -200,6 +193,10 @@ section{
 
 .project-image img{
     width: 100%;
+}
+
+.project-card:hover .project-image{
+    opacity: 0.9;
 }
 
 
