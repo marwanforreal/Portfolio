@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tajawal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -53,7 +54,7 @@ section{
     display: flex;
     align-items: center;
     background-color: midnightblue;
-    background: url(images/main-background.png) no-repeat; 
+    /*background: url(images/main-background.png) no-repeat;*/ 
     background-size:cover; 
     background-position:center;
 }
@@ -80,6 +81,41 @@ section{
     margin-top: 5px;
     margin-bottom: 30px;
 }
+
+.upper-code-container{
+    position: absolute;
+    margin-bottom: 35%;
+}
+
+.main .upper-code{
+    opacity: 30%;
+    overflow: hidden;
+    color: white;
+    font-family: 'Share Tech Mono';
+    white-space: nowrap;
+    margin: 0 auto;
+    position:absolute;
+}
+
+.second-line{
+    padding-left:80px;
+}
+
+.lower-code-container{
+    position: absolute;
+    margin-top: 35%;
+}
+
+.main .lower-code{
+    opacity: 30%;
+    overflow: hidden;
+    color: white;
+    font-family: 'Share Tech Mono';
+    white-space: nowrap;
+    margin: 0 auto;
+    position:absolute;
+}
+
 
 .main-btn{
     color:midnightblue;
@@ -288,6 +324,10 @@ section{
         text-align: center;
         margin: 25px;
     }
+
+    .upper-code-container{
+        margin-bottom: 135%;
+    }
 }
 
 @media(max-width:641px){
@@ -330,6 +370,15 @@ section{
     .footer .social-icons{
         text-align: center;
         margin: 10px;
+    }
+
+    .upper-code-container{
+        margin-bottom: 135%;
+        display: none;
+    }
+
+    .lower-code-container{
+        margin-top: 130%;
     }
 }
 
