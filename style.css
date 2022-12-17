@@ -59,10 +59,37 @@ section{
     background-position:center;
 }
 
+.project-pictures-row{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.project-pictures-column{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.main-project-picture-card{
+    background-color:white;
+    width: 100%;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    border-radius: 10px;
+    padding: 1px;
+    margin: 1px;  
+}
+
+
+.project-pictures-column img {
+    max-width: 100%;
+}
+
 .main h2{
     color:#d6bf89; 
     font-size: 1.4em;
     font-weight: 500;
+    margin-top: 30px;
 }
 
 .main h2 span{
@@ -341,6 +368,10 @@ section{
 @media(max-width:641px){
     body{
         font-size: 12px; 
+    }
+
+    .project-pictures-column{
+        width: 100%;
     }
 
     header{
